@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "overpowered_pickles",
+  "version": "${version}",
+
+  "name": "Overpowered Pickles",
+  "description": "A set of overly enhanced pickles",
+  "authors": [
+    "Kevin Pugh"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/overpowered-pickles-fabric",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/overpowered_pickles/textures/item/absurd_pickle.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kwpugh.overpowered_pickles.OverpoweredPickles"
+    ]
+  },
+  "mixins": [
+    ""
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
